@@ -1,0 +1,18 @@
+
+    function gtag(){dataLayer.push(arguments);}
+    !function(w, a) {
+        if (!w.dataLayer) {
+            w.dataLayer = w.dataLayer || [];
+            gtag('js', new Date());
+        }
+        gtag('set', 'developer_id.dYzMzMD', true);
+        gtag('config', 'AW-6005544362');
+        w[a] = (w[a] && w[a].filter(c => c.name !== 'globalGtag')) || [];
+        w[a].push({
+            name: 'globalGtag',
+            report: gtag,
+            config: {
+                trackingId: 'AW-6005544362'
+            }
+        });
+    }(window,"promoteAnalyticsChannels")
